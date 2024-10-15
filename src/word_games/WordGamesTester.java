@@ -8,7 +8,7 @@ public class WordGamesTester {
         System.out.println("Please enter a word: ");
         String userWord = input.nextLine();
         WordGames wordGame = new WordGames(userWord);
-        // Scramble it
+        // Scramble it 2
         String scrambled = wordGame.scramble();
         // Print out scrambled word
         System.out.println(scrambled);
